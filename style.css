@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: url("img/derevo_doska_tekstura_159786_3840x2400.jpg");
+    background-size: 100%;
+    color: white;
+}
+
+h1{
+  font-family: "Noto Sans";
+  font-size: 50px;
+}
+
+.f_title{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.f_title-cont{
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+    padding: 5px 5px 5px 60px;
+    box-sizing: border-box;
+}
+
+.f_title img{
+    margin-left: -55px;
+    margin-top: 20px;
+    float: left;
+    width: 100px;
+}
+
+
+.main{
+    padding: 50px 0 100px 0;
+    display: block;
+    width: 90%;
+    margin: 0px auto 0px auto;
+}
+
+.main-cont{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.card{
+    padding: 20px;
+    width: 40%;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px;
+    background-color: Snow;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card img:hover{
+    width: 100%;
+    border-radius: 15px;
+    background-color: Snow;
+    box-shadow: 0 8px 14px rgba(255, 255, 255, 0.5);
+}
+
+.card-title{
+    padding: 10px;
+    font-size: 17px;
+    font-family: "Noto Sans";
+    font-weight: 600;
+}
