@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://recipes.github.io/sitemap.xml
